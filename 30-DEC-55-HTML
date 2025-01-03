@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 1.CLOSE TAG (PAIRED TAG)-->
+    <!-- 2.OPEN TAG (UNPAIRED TAG)-->
+    <h1>College Details</h1>
+    <ol>
+        
+        <li>A.P.J. Technical University
+           <ul>
+            <li>1.MCA</li>
+            
+            <li>2.BCA</li>
+            <li>2.B.Tech</li>
+            <li>2.M.Tech</li>
+           </ul>
+        </li>
+    </ol>
+</body>
+</html>
