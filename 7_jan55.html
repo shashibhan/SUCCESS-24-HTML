@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Form Example</title>
+</head>
+<body>
+  <h1>HTML Form Example</h1>
+  <form action="/submit" method="POST">
+    <!-- Text Input -->
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+    <br><br>
+
+    <!-- Email Input -->
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" placeholder="Enter your email">
+    <br><br>
+
+    <!-- Password Input -->
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required>
+    <br><br>
+
+    <!-- Number Input -->
+    <label for="age">Age:</label>
+    <input type="number" id="age" name="age" min="18" max="100">
+    <br><br>
+
+    <!-- Date Input -->
+    <label for="dob">Date of Birth:</label>
+    <input type="date" id="dob" name="dob">
+    <br><br>
+
+    <!-- Radio Buttons -->
+    <fieldset>
+      <legend>Gender:</legend>
+      <label><input type="radio" name="gender" value="male"> Male</label>
+      <label><input type="radio" name="gender" value="female"> Female</label>
+      <label><input type="radio" name="gender" value="other"> Other</label>
+    </fieldset>
+    <br>
+
+    <!-- Checkbox -->
+    <fieldset>
+      <legend>Interests:</legend>
+      <label><input type="checkbox" name="interest" value="coding"> Coding</label>
+      <label><input type="checkbox" name="interest" value="sports"> Sports</label>
+      <label><input type="checkbox" name="interest" value="music"> Music</label>
+    </fieldset>
+    <br>
+
+    <!-- Dropdown -->
+    <label for="country">Country:</label>
+    <select id="country" name="country">
+      <option value="">--Select your country--</option>
+      <option value="usa">USA</option>
+      <option value="india">India</option>
+      <option value="uk">UK</option>
+    </select>
+    <br><br>
+
+    <!-- Textarea -->
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" rows="4" cols="30" placeholder="Enter your message"></textarea>
+    <br><br>
+
+    <!-- Datalist -->
+    <label for="color">Favorite Color:</label>
+    <input type="text" id="color" name="color" list="colors">
+    <datalist id="colors">
+      <option value="Red">
+      <option value="Blue">
+      <option value="Green">
+      <option value="Yellow">
+    </datalist>
+    <br><br>
+
+    <!-- File Input -->
+    <label for="resume">Upload Resume:</label>
+    <input type="file" id="resume" name="resume">
+    <br><br>
+
+    <!-- Range Input -->
+    <label for="experience">Experience (years):</label>
+    <input type="range" id="experience" name="experience" min="0" max="20">
+    <br><br>
+
+    <!-- Progress Bar -->
+    <label for="progress">Task Progress:</label>
+    <progress id="progress" value="70" max="100"></progress>
+    <br><br>
+
+    <!-- Submit and Reset Buttons -->
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+  </form>
+  <a href="first.html"download><button>download</button></a>
+</body>
+</html>
