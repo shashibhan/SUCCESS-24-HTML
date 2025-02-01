@@ -1,0 +1,38 @@
+fieldset{
+    width: 40%;
+    margin: auto;
+    height: auto;
+}
+.Student_name input{
+    width: 80%;
+    padding: 5px;
+}
+.Student_age input{
+    width: 80%;
+    padding: 5px;
+
+}
+.Student_contact input{
+
+    width: 80%;
+    padding: 5px;
+
+}
+.Student_dob input{
+    width: 80%;
+    padding: 5px;
+
+}
+.student_class select {
+    width: 80%;
+    padding: 5px;
+}
+
+.btn input{
+   padding: 10px;
+   margin: 10px;
+   width: 150px;
+}
+.student_document input{
+    border: 1px solid;
+}

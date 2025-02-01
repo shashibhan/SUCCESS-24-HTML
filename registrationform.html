@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ragistrationform.css">
+</head>
+<body>
+    <!--styling on form  -->
+    <fieldset>
+        <legend><H1>Student Registraion Form</H1></legend>
+        <form action="">
+            <div class="student-name">
+                <p><label for="">Student Name </label></p>
+                <p><input type="text" placeholder="Type Your name here"></p>
+            </div>
+
+            <div class="student-age">
+                <p><label for="">Student Age </label></p>
+                <p><input type="number" placeholder="Type Your age here"></p>
+            </div>
+
+            <div class="student-contact">
+                <p><label for="">Student Contact </label></p>
+                <p><input type="number" placeholder="Type Your contact here"></p>
+            </div>
+
+            <div class="student-dob">
+                <p><label for="">Student DOB </label></p >
+                <p><input type="date"></p >
+            </div>
+
+            <div class="student-subject">
+                <p><label for="">Student Subject </label></p>
+                <label for="">Math</label>
+                <input type="checkbox">
+                <label for="">English</label>
+                <input type="checkbox"/>
+                <label for="">Hindi</label>
+                <input type="checkbox"/>
+                <label for="">Computer</label>
+                <input type="checkbox"/>
+                <label for="">Chemestry</label>
+                <input type="checkbox"/>
+                
+            </div>
+
+            <div class="student-class">
+                <select>
+                    <option hidden value="None">Choose one class</option>
+                    <option value="CLASS-1">CLASS-1</option>
+                    <option value="CLASS-2">CLASS-2</option>
+                    <option value="CLASS-3">CLASS-3</option>
+                    <option value="CLASS-4">CLASS-4</option>
+                    <option value="CLASS-5">CLASS-5</option>
+                </select>
+            </div>
+
+            <div class="student-documents">
+                <p><label for="">Upload File Here</label></p>
+                <small>Max-Size:30kb</small>
+                <input type="file">
+            </div>
+
+            <div class="btn">
+                <input type="submit" value="Submit Here">
+                <input type="reset" value="Reset Form">
+            </div>
+        </form>
+    </fieldset>
+</body>
+</html>
